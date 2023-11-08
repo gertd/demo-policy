@@ -1,0 +1,40 @@
+{
+	"assertions": [
+		{
+			"check_decision": {
+				"identity_context": {
+					"identity": "",
+					"type": "IDENTITY_TYPE_NONE"
+				},
+				"resource_context": {
+					"version": "0.0.1"
+				},
+				"policy_context": {
+					"path": "policies.version",
+					"decisions": [
+						"version"
+					]
+				}
+			},
+			"expected": false
+		},
+		{
+			"check_decision": {
+				"identity_context": {
+					"identity": "",
+					"type": "IDENTITY_TYPE_NONE"
+				},
+				"resource_context": {
+					"version": "0.0.2"
+				},
+				"policy_context": {
+					"path": "policies.version",
+					"decisions": [
+						"version"
+					]
+				}
+			},
+			"expected": true
+		}
+	]
+}

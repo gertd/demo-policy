@@ -74,7 +74,7 @@ jobs:
       -
         name: Topaz Set Manifest
         run: |
-          ./bin/topaz set ./manifest/manifest.yaml --insecure --no-check
+          ./bin/topaz manifest set ./manifest/manifest.yaml --insecure --no-check
       -
         name: Topaz Load Data
         run: |

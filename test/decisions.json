@@ -25,7 +25,7 @@
 					"type": "IDENTITY_TYPE_NONE"
 				},
 				"resource_context": {
-					"version": "0.0.2"
+					"version": "0.0.3"
 				},
 				"policy_context": {
 					"path": "policies.version",

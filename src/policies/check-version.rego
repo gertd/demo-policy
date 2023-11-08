@@ -1,6 +1,6 @@
 package policies.version
 
-current := "0.0.2"
+current := "0.0.3"
 
 default version = false
 
